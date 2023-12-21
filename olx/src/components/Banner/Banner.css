@@ -1,0 +1,44 @@
+.bannerParentDiv {
+    padding-top: 4em;
+  }
+  .bannerParentDiv .bannerChildDiv {
+  }
+  .bannerParentDiv .bannerChildDiv .menuBar {
+    display: flex;
+    padding: 10px 16px 10px 16px;
+    margin-left: 30px;
+  }
+  
+  .bannerParentDiv .bannerChildDiv .menuBar span {
+  }
+  
+  .bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
+    margin-right: 16px;
+    font-weight: 500;
+  }
+  
+  .bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions {
+  }
+  .bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
+    padding: 10px;
+  }
+  
+  .bannerChildDiv .banner {
+    position: relative;
+    /* left: -33em; */
+    width: 100vh;
+  }
+  .bannerChildDiv .banner img{
+    width: 100vw;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .otherQuickOptions {
+      display: none;
+    }
+    .bannerChildDiv .banner {
+      position: relative;
+      left: -33em;
+    }
+  }
+  
